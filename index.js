@@ -2,6 +2,7 @@ import 'ol/ol.css';
 import {Map, View} from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import TileWMS from 'ol/source/TileWMS';
+import {defaults as defaultControls, ScaleLine} from 'ol/control';
 
 var layers = [
   new TileLayer({
@@ -13,8 +14,14 @@ var layers = [
     }),
   })
 ];
+var scale = new ScaleLine({
+  units: 'metric'
+});
 const map = new Map({
   target: 'map',
+  controls: defaultControls().extend([
+    scale
+  ]),
   layers: layers,
   view: new View({
     center: [0, 0],
