@@ -5,6 +5,8 @@ Based on the "Building an OpenLayers Application" OpenLayers [tutorial](https://
 
 To start, git clone, then type "npm install" and then "npm install" on the command line.
 
+The example is then available at http://localhost:1234
+
 Look into the different branches for a step-by-step tutorial. The order of the branches should be:
 - bundle-tutorial
 - mola-baselayer
