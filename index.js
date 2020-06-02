@@ -40,6 +40,12 @@ const map = new Map({
         url: "https://maps.planet.fu-berlin.de/eqc-bin/wms?",
         params: { LAYERS: "MOLA-gray-hs" }
       })
+    }),
+    new TileLayer({
+      source: new TileWMS({
+        url: "https://maps.planet.fu-berlin.de/eqc-bin/productid.py?",
+        params: { LAYERS: "hrsc4ihs", PRODUCTID: "h3286_0000.ihs.04" }
+      })
     })
   ],
   controls: defaultControls().extend([
