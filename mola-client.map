@@ -1,0 +1,35 @@
+MAP
+  IMAGETYPE      PNG
+  EXTENT         -10668837.5 -5213575.0 10668900.0 5215725.0
+  SIZE           400 300
+  IMAGECOLOR     255 255 255
+  WEB
+    IMAGEPATH "/tmp/ms_tmp/"
+    IMAGEURL "/ms_tmp"
+  END
+  PROJECTION
+    proj=eqc
+    lat_ts=0
+    lat_0=0
+    lon_0=0
+    x_0=0
+    y_0=0
+    a=3396000
+    b=3396000
+    units=m
+  END
+  LAYER
+    DEBUG ON
+    NAME "mola"
+    TYPE RASTER
+    STATUS ON
+    CONNECTION "https://maps.planet.fu-berlin.de/eqc-bin/wms?"
+    CONNECTIONTYPE WMS
+    METADATA
+      "wms_srs"             "epsg:49910"
+      "wms_name"            "MOLA-gray-hs"
+      "wms_server_version"  "1.1.1"
+      "wms_format"          "image/png"
+    END
+  END
+END
