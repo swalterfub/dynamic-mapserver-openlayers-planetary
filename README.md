@@ -14,4 +14,5 @@ Look into the different branches for a step-by-step tutorial. The order of the b
 - dynamic-image-epsg
 - mapcache-iau2000
 
-This tutorial is the code base for the OpenPlanetary lunch talk held on June 2nd, 2020.
+This tutorial is the code base for the OpenPlanetary lunch talk held on June 2nd, 2020. The presentation is available in the 
+[swalterfub/oplunch-talk](https://github.com/swalterfub/oplunch-talk/settings).
