@@ -5,7 +5,7 @@ Based on the "Building an OpenLayers Application" OpenLayers [tutorial](https://
 
 To start, git clone, then type "npm install" and then "npm install" on the command line.
 
-Look into the different branches for a step-by-step tutorial. The order of the branches is:
+Look into the different branches for a step-by-step tutorial. The order of the branches should be:
 - bundle-tutorial
 - mola-baselayer
 - scale-line
@@ -15,4 +15,4 @@ Look into the different branches for a step-by-step tutorial. The order of the b
 - mapcache-iau2000
 
 This tutorial is the code base for the OpenPlanetary lunch talk held on June 2nd, 2020. The presentation is available in the 
-[swalterfub/oplunch-talk](https://github.com/swalterfub/oplunch-talk/settings).
+[swalterfub/oplunch-talk](https://github.com/swalterfub/oplunch-talk/settings) repository.
