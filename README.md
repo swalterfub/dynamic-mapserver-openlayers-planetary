@@ -1,5 +1,5 @@
 # Dynamic layers using OpenLayers, MapServer, planetary spatial reference systems and Python
-Example tutorial using custom planetary spatial reference systems using OpenLayers and MapServer WMS
+Example tutorial for custom planetary spatial reference systems using OpenLayers and MapServer WMS
 
 This tutorial is the code base for the OpenPlanetary lunch talk held on June 2nd, 2020. The presentation is available in the 
 [swalterfub/oplunch-talk](https://github.com/swalterfub/oplunch-talk/settings) repository.
